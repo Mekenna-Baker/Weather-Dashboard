@@ -2,7 +2,8 @@ import { Router } from 'express';
 const router = Router();
 
 import HistoryService from '../../service/historyService';
-import WeatherService from '../../service/WeatherService';
+import WeatherService from '../../service/weatherService';
+
 
 // TODO: POST Request with city name to retrieve weather data
 
@@ -22,7 +23,7 @@ router.post('/', async (req, res) => {
     console.log('Weather data retrieved', weatherData);
 
     // TODO: Save city to search history
-    
+
     await HistoryService.addCity(cityName);
     console.log(`${cityName} added to search history`);
 
