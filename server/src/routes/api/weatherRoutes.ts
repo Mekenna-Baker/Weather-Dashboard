@@ -8,16 +8,15 @@ const baseURL = process.env.API_BASE_URL || '';
 const apiKey = process.env.API_KEY || '';
 
 // Create instances of each service class
-
 const historyService = new HistoryService();
 const weatherService = new WeatherService(baseURL, apiKey);
 
 // POST Request with city name to retrieve weather data
-
 router.post('/', async (req, res) => {
   const cityName = req.body.cityName;
 
   if (!cityName) {
+    console.log(`City name received: ${cityName}`);
     return res.status(400).json({ error: 'City name is required' });
   }
 
@@ -40,7 +39,6 @@ router.post('/', async (req, res) => {
 });
 
 // GET search history
-
 router.get('/history', async (_req, res) => {
   try {
     console.log('Fetching search history');
@@ -53,8 +51,6 @@ router.get('/history', async (_req, res) => {
 });
 
 export default router;
-
-
 
 // * BONUS TODO: DELETE city from search history
 
