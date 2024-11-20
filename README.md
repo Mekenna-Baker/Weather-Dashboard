@@ -11,9 +11,8 @@ This project was designed to help test my skills and abilities utilizing externa
 I was responsible for creating the backend, connecting it to the front end, and deploying the site. 
 
 
-## Table of Contents (Optional)
+## Table of Contents 
 
-- 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
@@ -67,8 +66,8 @@ Credit to Edx Fullstack Bootcamp instructors and TAs for providing starter code.
 
 ## Contact Me
 
-| Name           | Email            | GitHub Link                                 | LinkedIn Link                                           |
-|----------------|------------------|---------------------------------------------|---------------------------------------------------------|
-| Mekenna Baker  | example@email.com | [GitHub](https://github.com/Mekenna-Baker) | [LinkedIn](https://www.linkedin.com/in/mekenna--baker/) |
+| Name           | Email                     | GitHub Link                                 | LinkedIn Link                                           |
+|----------------|---------------------------|---------------------------------------------|---------------------------------------------------------|
+| Mekenna Baker  | mekenna.drabner@gmail.com | [GitHub](https://github.com/Mekenna-Baker) | [LinkedIn](https://www.linkedin.com/in/mekenna--baker/)  |
 
 
